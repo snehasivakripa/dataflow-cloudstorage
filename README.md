@@ -7,7 +7,7 @@ For authentication settings in google sdk:
 gcloud auth application-default login
 ```
 
-#Includes:
+##Includes:
 
 ## Cloud Storage:
 1.Create cloud storage bucket.
