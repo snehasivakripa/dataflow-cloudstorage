@@ -34,7 +34,7 @@ public class CloudFun implements HttpFunction {
                 .build();
 
 
-        String projectId = "my-dataflow-project-284008";
+        String projectId = "my-projectId";
 
 
         RuntimeEnvironment runtimeEnvironment = new RuntimeEnvironment();
