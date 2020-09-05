@@ -1,0 +1,9 @@
+xxxxxx|arun|t|james|31051989|4444|male|p11
+yyyyyy|mariya|m|thomas|01051989|4444|female|p12
+aaaaaa|arun|s|luka|31051990|6666|male|p13
+bbbbbb|rose|p|mathew|06041989|7777|female|p14
+cccccc|rony|d|james|31011989|5555|female|p15
+dddddd|kuriyan|K|joseph|31052000|3333|male|p16
+ffffff|manu|r|mathew|31051989|5555|male|p17
+hhhhhh|arun|john|kk|31052000|1010|male|p18
+xxxxxx|radika|m|nair|09102010|6660|female|p21
