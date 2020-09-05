@@ -7,7 +7,7 @@ For authentication settings in google sdk:
 gcloud auth application-default login
 ```
 
-##Includes:
+## Includes:
 
 ## Cloud Storage:
 1.Create cloud storage bucket.
@@ -23,26 +23,26 @@ gcloud auth application-default login
 3. Read a file ,manipulate using hashmap and store in redis.(ManipulationHashMap)
   Output in redis :hash1:firstname:name
 
-#Dataflow Streaming
+## Dataflow Streaming
 1. Read a file ,manipulate using hashmap and store in redis.(Streaming)
      Output in redis :hash1:firstname:name
      
-#CloudFunction
+## CloudFunction
 1. Http(trigger) to trigger dataflow.(CloudFun)
 2. CloudStorage to trigger dataflow.(CloudStorageFunction)
 
 
-##Command to create Dataflow Batch Job
+## Command to create Dataflow Batch Job
 
 Download the WordCount project from google provided sample code.
 
-##Prerequistics:
+## Prerequistics:
 1. Create 3 buckets :
 a. Where inputfile is present
 b. For stagging details .Inside which 3 folders:temp,template and stagging
 c. For output folder.
 
-##Steps:
+## Steps:
 
 1. Create a directory say Wordcount
 2. cd WordCount
@@ -53,6 +53,7 @@ mvn archetype:generate -DarchetypeArtifactId=google-cloud-dataflow-java-archetyp
 ```
 
 4. Navigate inside the folder where pom is present and execute the following command to create dataflow job:
+
 ```Groovy
 mvn compile exec:java -Dexec.mainClass=com.demo.WordCount -Dexec.args="--project=my-new-267017 \
 --stagingLocation=gs://dataflow-wordcount-stagging/staging \
@@ -64,7 +65,7 @@ mvn compile exec:java -Dexec.mainClass=com.demo.WordCount -Dexec.args="--project
 ```
 5. Check template is created in stagging/template folder and job is created in dataflow.
 
-##Command to create Dataflow Batch Streaming
+## Command to create Dataflow Batch Streaming
 
 ```Groovy
  mvn compile exec:java -Dexec.mainClass=com.function.Manipulation -Dexec.args="--project=my-dataflow-project-284008 \
